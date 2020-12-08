@@ -3,7 +3,10 @@
 using namespace std;
 int main()
 {
-
+	cout <<"=========================================" << endl;
+	cout <<"MEMBUAT PROGRAM BILLING WARNET / TELEPON " << endl;
+	cout <<"=========================================" << endl;
+	
 	int td1,j1,m1,d1,sm1;
 	cout<<"Masukan Jam Awal :";
 	cin>>j1;
@@ -11,7 +14,7 @@ int main()
 	cin>>m1;
 	cout<<"Masukan Detik Awal :";
 	cin>>d1;
-	
+	cout <<"=========================================" << endl;
 	int td2,j2,m2,d2,sm2;
 	cout<<"Masukan Jam Akhir :";
 	cin>>j2;
@@ -19,7 +22,7 @@ int main()
 	cin>>m2;
 	cout<<"Masukan Detik Akhir :";
 	cin>>d2;
-	
+	cout <<"=========================================" << endl;
 	td1=(j1*3600)+(m1*60)+d1;
 	td2=(j2*3600)+(m2*60)+d2;
 	
